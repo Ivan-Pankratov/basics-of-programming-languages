@@ -12,5 +12,5 @@ int count = -number;
 while (count <= number)
 {
     Console.Write($"{count}, ");
-    count ++;
+    count++;
 }
