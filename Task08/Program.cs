@@ -7,3 +7,15 @@
 // Ввод числа N;
 // инициализируем переменную счётчик a = 2
 // Цикл вывода чётных чисел пока a < N
+
+Console.Write("Введите положительное целое число a:  ");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = 2;
+Console.Write($"Чётные числа до {a}: ");
+while (b <= a)
+{
+     Console.Write($" {b}, ");
+     b=b+2;
+}
+
+

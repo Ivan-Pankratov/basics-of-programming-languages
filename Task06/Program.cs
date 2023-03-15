@@ -8,4 +8,11 @@
 // Сравниваем остаток от деления на 2 с 0 и принимаем решение чёт/нечет.
 // Вывод да/нет.
 
-
+Console.Write("Введите целое число, a =  ");
+int a = Convert.ToInt32(Console.ReadLine());
+if (a % 2 == 0)
+   Console.WriteLine($"{a} - чётное число");
+else 
+{
+    Console.WriteLine($"{a} - нечётное число");
+}
