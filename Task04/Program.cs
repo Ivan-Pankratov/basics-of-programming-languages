@@ -17,24 +17,24 @@ Console.Write("Введите целое число, b =  ");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите целое число, c =  ");
 int c = Convert.ToInt32(Console.ReadLine());
-if (a>b)
-{ 
-    if (a>c)
+if (a > b)
+{
+    if (a > c)
     {
         Console.Write($"Максимум = {a}");
     }
-    else 
+    else
     {
         Console.Write($"Максимум = {c}");
     }
 }
 else
 {
-    if (b>c)
+    if (b > c)
     {
         Console.Write($"Максимум = {b}");
     }
-    else 
+    else
     {
         Console.Write($"Максимум = {c}");
     }

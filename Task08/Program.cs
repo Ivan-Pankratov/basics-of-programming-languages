@@ -14,8 +14,8 @@ int b = 2;
 Console.Write($"Чётные числа до {a}: ");
 while (b <= a)
 {
-     Console.Write($" {b}, ");
-     b=b+2;
+    Console.Write($" {b}, ");
+    b = b + 2;
 }
 
 
