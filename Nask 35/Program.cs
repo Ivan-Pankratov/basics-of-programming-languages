@@ -1,5 +1,7 @@
 ﻿// 
 // Массив с вещественными элементами
+// Методы создания и печати, и обращение к методам
+
 
 double[] CreateArrayRndDouble(int size, int min, int max)
 {
