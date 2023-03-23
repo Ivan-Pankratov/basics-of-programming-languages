@@ -6,6 +6,7 @@
 double[] array = CreateArrayRndDouble(5, -10, 10);
 PrintArray(array);
 double result = MaxElementeOfArray(array) - MinElementeOfArray(array);
+result = Math.Round(result, 1);
 Console.WriteLine($"Разница максимального и минимального элементов: {result}");
 
 double[] CreateArrayRndDouble(int size, int min, int max)
