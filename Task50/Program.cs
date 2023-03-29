@@ -22,7 +22,7 @@ indexJ = indexJ - 1;
 int[,] matrix = CreateMatrixRndInt(3, 4, -10, 10);
 PrintMatrix(matrix);
 
-if (indexI >= matrix.GetLength(0) || indexJ >= matrix.GetLength(1))
+if (indexI >= matrix.GetLength(0) || indexJ >= matrix.GetLength(1) || indexI <=0 || indexJ <= 0 )
     {
         Console.WriteLine("Такого числа в массиве нет.");
     }
